@@ -14,7 +14,7 @@ const showCrafts = async () => {
             `;
             craftList.appendChild(craftElement);
 
-            // Change here: Add event listener to the image for clicking
+      
             craftElement.querySelector('.craft-image img').addEventListener('click', () => showCraftModal(craft));
         });
     } catch (error) {
